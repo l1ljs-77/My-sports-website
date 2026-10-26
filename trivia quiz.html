@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trivia</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" > <!--link to the css file-->
+        <script src="script.js" defer></script> <!--link to the js file-->
+    </head>
+
+    <body>
+        <!--This div element is to create the navigation bar-->
+        <div id="tDiv" class="navigation">
+            <a id="home" class="links" href="index.html">Home</a>
+            <a id="abt" class="links" href="about.html">About</a>
+            <a id="sc" class="links" href="showcase.html">Showcase</a>
+            <a id="dt" class="links" href="dream team.html">Dream Team</a>
+            <a id="ct" class="links" href="contact.html">Contact Me</a>
+            <button id="toggle" type="button">Switch theme</button>
+        </div>
+        <!--This div element is to create the black part of background-->
+        <div id="tqPage" class="page">
+            <h1 id="h5_1" class="mainHeadings">Sports Team Trivia Quiz</h1>
+            <h2 id="h5_2" class="genText">Choose a team:</h2>
+            <!--This div element is used to align the team cards in the centre-->
+            <div id="tcContainer">
+                <button id="gbp" class="teamCards" type="button">
+                <img class="logos" src="images/gb.png" alt="A picture of the Green Bay Packers logo" width="200" height="200"><br>
+                Green Bay Packers
+                </button>
+                <button id="p76" class="teamCards" type="button">
+                <img class="logos" src="images/76ers.png" alt="A picture of the Philadelphia 76ers logo" width="200" height="200"><br>
+                Philadelphia 76ers
+                </button>
+                <button id="cfc" class="teamCards" type="button">
+                <img class="logos" src="images/chelsea.png" alt="A picture of the Chelsea FC logo" width="200" height="200"><br>
+                Chelsea FC
+                </button>
+                <button id="rmcf" class="teamCards" type="button">
+                <img class="logos" src="images/rm.png" alt="A picture of the Real Madrdid CF logo" width="200" height="200"><br>
+                Real Madrid CF
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

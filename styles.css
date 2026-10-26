@@ -1,0 +1,229 @@
+/* Universal layout */
+/* Background image */
+body {background-image: url(images/bg.jpg);}
+/* Black part of background */
+.page {background-color: black; width: 75%; margin: 0 auto; border: 5px double white; min-height: 450px;}
+/* Navigation bar */
+.navigation {background-color: white; height: 125px; border: 5px double black; min-width: 90%; align-content: center; 
+    display: flex; place-items: center; justify-content: space-evenly;}
+.links {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 36px; color: silver; -webkit-text-stroke: 
+    0.75px black; }
+#toggle {height: 45px; width: 200px; background-color: black; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 18px; color: silver; -webkit-text-stroke: 1px white; align-content: center; border: 4px groove goldenrod;}
+/* Home page */
+.mainHeadings {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 56px; color: goldenrod; text-align: center; 
+    -webkit-text-stroke: 2px white;}
+#h1_2 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, sans-serif; 
+    font-size: 48px; color: black; text-align: center; -webkit-text-stroke: 1.5px white;}
+#h1_3 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, sans-serif; 
+    font-size: 36px; color: black; text-align: center; -webkit-text-stroke: 0.75px white; font-style: italic;}
+#me {border: 4px double goldenrod; display: block; margin-left: auto; margin-right: auto; position: relative; bottom: 25pt;}
+/* About page */
+.abtHeadings {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 36px; color: black; text-align: center; -webkit-text-stroke: 1px white; font-style: italic;}
+.pAbout {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 20px; color: black; text-align: center; -webkit-text-stroke: 0.5px white;}
+/* Showcase page */
+#li1 {color: darkgreen}
+#li2 {color: red;}
+#li3 {color: blue;}
+.teams {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 36px; text-align: center; -webkit-text-stroke: 1px white; font-style: italic;}
+#packLogo {color: darkgreen;}
+#packLegends {color: darkgreen;}
+#packNow {color: darkgreen;}
+#sixLogo {color: red;}
+#sixLegends {color: red;}
+#sixNow {color: red;}
+#cheLogo {color: blue;}
+#cheLegends {color: blue;}
+#cheNow {color: blue;}
+.captions {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 24px; -webkit-text-stroke: 0.5px white;}
+.descriptions {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 18px; color: black; -webkit-text-stroke: 0.5px white;}
+.teamPhotos {border: 4px double goldenrod;}
+/* Trivia page */
+#h5_2 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 36px; color: black; text-align: center; -webkit-text-stroke: 1px white; font-style: italic;}
+/* Clickable team cards */
+#tcContainer {display: grid; grid-template-columns: repeat(2, 1fr); gap: 45px; place-items: center;}
+#gbp {color: darkgreen;}
+#p76 {color: red;}
+#cfc {color: blue;}
+#rmcf {color: white;}
+.teamCards {background-color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 20px; -webkit-text-stroke: 0.7px black; border: 4px groove goldenrod; width: 275px; height: 275px;}
+/* Quizzes */
+.tqForms {display: flex; justify-content: space-evenly; align-items: center; height: auto; flex-direction: column;}
+#gbpQ1 {color: darkgreen;}
+#gbpQ2 {color: darkgreen;}
+#gbpQ3 {color: darkgreen;}
+#gbpQ4 {color: darkgreen;}
+#gbpQ5 {color: darkgreen;}
+#gbpQ6 {color: darkgreen;}
+#gbpQ7 {color: darkgreen;}
+#gbpQ8 {color: darkgreen;}
+#gbpQ9 {color: darkgreen;}
+#gbpQ10 {color: darkgreen;}
+#p76Q1 {color: red;}
+#p76Q2 {color: red;}
+#p76Q3 {color: red;}
+#p76Q4 {color: red;}
+#p76Q5 {color: red;}
+#p76Q6 {color: red;}
+#p76Q7 {color: red;}
+#p76Q8 {color: red;}
+#p76Q9 {color: red;}
+#p76Q10 {color: red;}
+#cfcQ1 {color: blue;}
+#cfcQ2 {color: blue;}
+#cfcQ3 {color: blue;}
+#cfcQ4 {color: blue;}
+#cfcQ5 {color: blue;}
+#cfcQ6 {color: blue;}
+#cfcQ7 {color: blue;}
+#cfcQ8 {color: blue;}
+#cfcQ9 {color: blue;}
+#cfcQ10 {color: blue;}
+.tqLabels {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 20px; color: black; -webkit-text-stroke: 0.5px white;}
+.quizBackButtons {height: 35px; width: 300px; background-color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 20px; -webkit-text-stroke: 0.6px black; color: red;border: 4px groove goldenrod; align-content: center;}
+.quizSubmitButtons {height: 35px; width: 300px; background-color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 20px; -webkit-text-stroke: 0.6px black; color: green;border: 4px groove goldenrod; align-content: center;}
+#gbpResult {color: darkgreen;}
+#p76Result {color: red;}
+#cfcResult {color: blue;}
+.results {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 24px; color: black; -webkit-text-stroke: 0.5px white;}
+/* Dream Team page */
+#dtPage {display: flex; align-items: center; justify-content: center; flex-direction: column;}
+#headingContainer {display: flex; align-items: center; justify-content: center; gap: 15px;}
+.buttonHeadings {height: 125px; width: 300px; background-color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 20px; color: silver; -webkit-text-stroke: 0.6px black; border: 5px groove goldenrod; align-content: center;}
+#rosterHeading1 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 30px; color: black; text-align: center; -webkit-text-stroke: 1px white; text-decoration: underline;}
+#rosterHeading2 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 30px; color: black; text-align: center; -webkit-text-stroke: 1px white; text-decoration: underline;}
+#rosterHeading3 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 30px; color: black; text-align: center; -webkit-text-stroke: 1px white; text-decoration: underline;}
+.dtForms {display: flex; justify-content: space-evenly; align-items: center; height: auto; flex-direction: column;}
+.instructions {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 26px; color: black; text-align: center; -webkit-text-stroke: 1px white;}
+#position {width: 150px; height: 50px; background-color: white;}
+#selected {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, 
+    Arial, sans-serif; font-size: 22px;}
+.options {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, 
+    Arial, sans-serif; font-size: 22px;}
+#txtPoC {width: 400px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, 
+    Arial, sans-serif; font-size: 22px;}
+#confirm1 {color: green;}
+#confirm2 {color: green;}
+#confirm3 {color: green;}
+#resetLineup1 {color: red;}
+#resetLineup2 {color: red;}
+#resetLineup3 {color: red;}
+#goBack1 {color: silver;}
+#goBack2 {color: silver;}
+#goBack3 {color: silver;}
+.dtButtons {height: 35px; width: 300px; background-color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 20px; -webkit-text-stroke: 0.6px black; border: 4px groove goldenrod; align-content: center;}
+.phases {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 26px; color: black; text-align: center; -webkit-text-stroke: 1px white; font-style: italic;}
+.afPositions {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 22px; color: black; text-align: center; -webkit-text-stroke: 1px white;}
+/* Contact page */
+#contacts {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 36px; color: black; text-align: center; -webkit-text-stroke: 1px white; font-style: italic;}
+#h4_2 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 30px; color: black; text-align: center; -webkit-text-stroke: 1px white; text-decoration: underline;}
+#feedbackForm {display: flex; justify-content: space-evenly; align-items: center; height: 450px; flex-direction: column;}
+.questions {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 24px; color: black; -webkit-text-stroke: 0.5px white;}
+#yes {color: green;}
+#no {color: red;}
+.labels {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, Arial, 
+    sans-serif; font-size: 20px; -webkit-text-stroke: 0.5px white;}
+#txtIssue {width: 650px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, 
+    Arial, sans-serif; font-size: 14px;}
+#txtExperience {width: 50px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif, 
+    Arial, sans-serif; font-size: 16px;}
+#reset {color: red;}
+#submit {color: green;}
+.buttons {height: 45px; width: 100px; background-color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 20px; color: silver; -webkit-text-stroke: 0.6px black; border: 4px groove goldenrod;}
+/* darkTheme classes */
+/* New white background */
+.darkThemeBCWhite .page, 
+.darkThemeBCWhite #toggle {background-color: white;}
+/* New black background */
+.darkThemeBCBlack .quizBackButtons,
+.darkThemeBCBlack .quizSubmitButtons,
+.darkThemeBCBlack .navigation,
+.darkThemeBCBlack .buttonHeadings,
+.darkThemeBCBlack #position,
+.darkThemeBCBlack .textboxes,
+.darkThemeBCBlack .dtButtons,
+.darkThemeBCBlack .buttons {background-color: black;}
+/* New white font colour */
+.darkThemeColWhite .results,
+.darkThemeColWhite .tqLabels,
+.darkThemeColWhite #h1_2,
+.darkThemeColWhite #h1_3,
+.darkThemeColWhite #h5_2,
+.darkThemeColWhite #rosterHeading3,
+.darkThemeColWhite #rosterHeading2,
+.darkThemeColWhite #rosterHeading1,
+.darkThemeColWhite #rosterHeading,
+.darkThemeColWhite #contacts,
+.darkThemeColWhite #h4_2,
+.darkThemeColWhite .abtHeadings,
+.darkThemeColWhite .pAbout,
+.darkThemeColWhite .descriptions,
+.darkThemeColWhite #li4,
+.darkThemeColWhite #rLogo,
+.darkThemeColWhite #rLegends,
+.darkThemeColWhite #rNow,
+.darkThemeColWhite .instructions,
+.darkThemeColWhite .options,
+.darkThemeColWhite .textboxes,
+.darkThemeColWhite .phases,
+.darkThemeColWhite .afPositions,
+.darkThemeColWhite #selected,
+.darkThemeColWhite .questions {color: white;}
+/* New white font outline */
+.darkThemeOutWhite .quizBackButtons,
+.darkThemeOutWhite .quizSubmitButtons,
+.darkThemeOutWhite .links {-webkit-text-stroke: 0.75px white;}
+.darkThemeOutWhite .buttonHeadings,
+.darkThemeOutWhite .dtButtons,
+.darkThemeOutWhite .buttons {-webkit-text-stroke: 0.6px white;}
+/* New black font outline */
+.darkThemeOutBlack .results,
+.darkThemeOutBlack .afPositions,
+.darkThemeOutBlack .phases,
+.darkThemeOutBlack .instructions,
+.darkThemeOutBlack .teams,
+.darkThemeOutBlack .abtHeadings,
+.darkThemeOutBlack #h4_2,
+.darkThemeOutBlack #contacts,
+.darkThemeOutBlack #rosterHeading3,
+.darkThemeOutBlack #rosterHeading2,
+.darkThemeOutBlack #rosterHeading1,
+.darkThemeOutBlack #rosterHeading,
+.darkThemeOutBlack #h5_2,
+.darkThemeOutBlack #toggle {-webkit-text-stroke: 1px black;}
+.darkThemeOutBlack .mainHeadings {-webkit-text-stroke: 2px black;}
+.darkThemeOutBlack #h1_2 {-webkit-text-stroke: 1.5px black;}
+.darkThemeOutBlack .tqLabels,
+.darkThemeOutBlack .labels,
+.darkThemeOutBlack .descriptions,
+.darkThemeOutBlack .pAbout,
+.darkThemeOutBlack .questions,
+.darkThemeOutBlack .captions {-webkit-text-stroke: 0.5px black;}
+.darkThemeOutBlack #h1_3 {-webkit-text-stroke: 0.75px black;}
+/* New white border */
+.darkThemeBorWhite .navigation {border: 5px double white;}
+/* New black border */
+.darkThemeBorBlack .page {border: 5px double black;}

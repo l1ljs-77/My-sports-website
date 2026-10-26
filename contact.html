@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" > <!--link to the css file-->
+        <script src="script.js" defer></script> <!--link to the js file-->
+    </head>
+
+    <body>
+        <!--This div element is to create the navigation bar-->
+        <div id="cDiv" class="navigation">
+            <a id="home" class="links" href="index.html">Home</a>
+            <a id="abt" class="links" href="about.html">About</a>
+            <a id="sc" class="links" href="showcase.html">Showcase</a>
+            <a id="tq" class="links" href="trivia quiz.html">Trivia</a>
+            <a id="dt" class="links" href="dream team.html">Dream Team</a>
+            <button id="toggle" type="button">Switch theme</button>
+        </div>
+        <!--The div element is to create the black part of background-->
+        <div id="contactPage" class="page">
+            <h1 id="h4_1" class="mainHeadings">Contact details</h1>
+            <p id="contacts" class="genText">
+            Phone number: 081 523 5556 <br>
+            Email address: <a id="email"  href="mailto:u24630315@tuks.co.za">u24630315@tuks.co.za</a>
+            </p>
+            <br>
+            <h2 id="h4_2" class="genText">Feedback form</h2>
+            <form id="feedbackForm">
+                <ol>
+                    <li class="questions">Did you experience any issues while navigating the website?</li>
+                    <input id="radYes" type="radio" name="boolean" value="yes" class="rads">
+                    <label id="yes" class="labels" for="radYes">Yes</label> <br>
+                    <input id="radNo" type="radio" name="boolean" value="no" class="rads">
+                    <label id="no" class="labels" for="radNo">No</label>
+                    <li class="questions">If you did, can you please go into further detail (please type 'None' if you didn't).</li>
+                    <input id="txtIssue" type="text" name="text1" class="textboxes">
+                    <li class="questions">How would you rate your overall experience out of 10?</li>
+                    <input id="txtExperience" type="number" name="text2" class="textboxes">
+                </ol>
+                <button id="reset" class="buttons" type="reset">Reset</button>
+                <button id="submit" class="buttons" type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
